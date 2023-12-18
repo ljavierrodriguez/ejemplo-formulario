@@ -1,0 +1,103 @@
+/* 
+
+especificidad: (id, class, element)
+
+selector {
+    propiedad: valor;
+}
+
+*/
+/* Selector de Tipo */
+
+p {
+    color: white;
+    background-color: blue;
+}
+
+div {
+    width: 100px;
+}
+
+p {
+    color: forestgreen;
+}
+
+/* Selector de Clase */
+
+.titulo {
+    font-size: 20px;
+    color: burlywood;
+}
+
+.subtitulo {
+    font-size: 15px;
+    color: gray;
+}
+
+.text {
+    color: salmon;
+    font-size: 40px;
+}
+
+/* Selector de ID */
+
+#home {
+    width: 100%;
+    height: 100vh;
+}
+
+/*  Selector Descendiente */
+
+.mensaje .texto {
+    color: green;
+    font-size: 18px;
+}
+
+/* Selector Hijo */
+.mensaje > .texto {
+    color: green;
+    font-size: 18px;
+}
+
+/* Selector Adyacente */
+div + p {
+    width: 100%;
+    padding: 20px 30px;
+}
+
+/* Selector hermano */
+.texto ~ p {
+    color: red;
+}
+
+/* Selector de Atributo */
+a[href]{ /* valida que cualquier etiqueta de enlace que tenga el atributo indicado presente */
+    text-decoration: none;
+    color: grey;
+}
+
+a[href^="https"]{ /* validan que el contenido del atributo empiece con el valor indicado */
+    color: green;
+}
+
+a[href$=".html"]{ /* validan que el contenido del atributo empiece con el valor indicado */
+    color: cadetblue;
+}
+
+a[href*="google"]{ /* valida que el href contenga el valor indicado */
+    color: red;
+}
+
+a[href*="facebook"]{ /* valida que el href contenga el valor indicado */
+    color: blue;
+}
+
+a[href*="twitter"]{ /* valida que el href contenga el valor indicado */
+    color: black;
+}
+
+
+ul > h4 ~ li {
+    color: blue;
+}
+

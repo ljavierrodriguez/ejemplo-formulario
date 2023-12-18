@@ -1,0 +1,31 @@
+p {
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    /* padding: 30px; */
+    border: 10px dotted red;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.box .content {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border-radius: 100%;
+}
+
+a {
+    border-color: red;
+    border-style: double;
+    border-width: 10px;
+}

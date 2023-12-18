@@ -1,0 +1,112 @@
+body {
+    background-color: aliceblue;
+}
+
+.signUp {
+    width: 600px;
+    height: auto;
+    display: flex;
+    margin: 5% auto;
+    background-color: white;
+    box-shadow: -1px 3px 10px gray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.signUp .signUp-left {
+    position: relative;
+    width: 40%;
+    background-color: #1f9e73;
+    color: white;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+}
+
+.signUp .signUp-left .circle1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff33;
+    border-radius: 100%;
+    bottom: -70px;
+    right: -50px;
+}
+
+.signUp .signUp-left .circle2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff33;
+    border-radius: 100%;
+    bottom: -20px;
+    left: -30px;
+}
+
+.signUp .signUp-left .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.signUp .signUp-left .logo .border {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-color: white;
+    border: 3px solid blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.signUp .signUp-left .logo .border .fa-check {
+    color: blueviolet;
+}
+
+.signUp .signUp-right {
+    width: 60%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signUp .signUp-right .signUp-input {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 8px 0;
+}
+
+.signUp .signUp-right .signUp-input input[type=text], .signUp .signUp-right .signUp-input input[type=password]{
+    border: 0;
+    border-bottom: 1px solid gray;
+    height: 20px;
+}
+
+.signUp .signUp-right .signUp-input label {
+    font-size: 12px;
+    color: #979494;
+}
+.signUp .signUp-right a {
+    text-decoration: none;
+    color: #1f9e73;
+}
+
+.signUp .signUp-right button {
+    text-decoration: none;
+    background-color: #1f9e73;
+    padding: 6px 30px;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+}
